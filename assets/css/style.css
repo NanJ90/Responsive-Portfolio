@@ -1,0 +1,195 @@
+*{
+	box-sizing: border-box;
+}
+ß
+	
+body{
+	height: 100%;
+	background-image: url("../image/ignasi_pattern_s.png");
+	text-align: center;
+	display:flex;
+	flex-direction: column;
+	margin:0 auto;
+	width:80%;
+	
+}
+
+
+h1, h2, h3{
+	font-family: 'Merriweather', serif;
+}
+a, .content p{
+	font-family: 'Roboto', sans-serif;
+	color: lightgrey;
+}
+.container-1{
+	background-color:white;
+	position: relative;
+	padding:4%;
+	border-style:none none solid none;
+	border-color: lightgrey;
+}
+
+h1{
+    color:white;
+    background-color: #62A8A4;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 26px 110px;
+    margin-bottom: 0;
+}
+
+nav{
+	text-align: right;
+}
+nav ul{
+	display: inline;
+	font-size:1.25em;
+}
+nav ul li:not(:last-child) {
+    border-right: solid;
+    border-width: 1px;
+    border-color: #E1E1E1;
+}
+
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    padding:5px 15px;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	color:pink;
+}
+
+.container-2{
+	background-color: white;
+	margin:13px 0;
+	border: 1px solid lightgrey;
+	float:left;
+	width:70%;
+}
+
+h2{
+	color: #62a8a4;
+	font-weight: lighter;
+	width: 16%;
+	margin:10px 0 2px;
+	padding:2%;
+}
+p{
+	line-height: 25px;
+	align-content: left;
+}
+
+.thick{
+	border: none;
+    height: 2px;
+    background-color: lightgrey;
+}
+
+.content{
+	padding:17px 40px;
+	height:435px;
+}
+
+.content img{
+	width:47%;
+	float:left;
+}
+
+.container-3{
+	float:left;
+	border:1px solid lightgrey;
+	background-color:white;
+	width: 24%;
+    height: 301px;
+    margin-left: 6%;
+    margin-top: 1%;
+}
+
+h3{
+	color: #62a8a4;
+	font-weight: lighter;
+	padding:6%;
+	border-style:none none solid none;
+	border-color: lightgrey;
+}
+
+.social{
+	width:100%;
+	display:inline-block;
+	text-align: center;
+}
+
+a img{
+	width:27%;
+}
+
+#portfolio{
+ display:inline-block;
+}
+.align{
+    width: 48%;
+    float: left;
+    padding-left: 4%;
+}
+
+.align img{
+ width:100%;
+}
+
+
+footer{
+	border-top-style: solid;
+	border-color: #88cac6;
+    border-width: 8px;
+    background-color: #666666;
+    height: 90px;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+}
+
+
+@media screen and (max-width:980px) {
+	h1{
+	padding: 16px 48px;
+    margin: 9px 0 0;
+	}
+	h2{
+	width: 25%;
+    margin: 6px 0px -3px 2px;
+    padding: 2%;
+	}
+}
+
+@media screen and (max-width:768px) {
+	h1{
+	top: -42px;
+    left: 0px;
+    padding: 12px 39px;
+    margin: 58px 0 0;
+	}
+	nav{
+	width: 100%;
+    font-size:small;
+}
+	h2{
+		width: 30%;
+	}
+}
+@media screen and (max-width:680px){
+	p{
+		font-size:x-small;
+		text-align: center;
+	}
+	
+}
+
